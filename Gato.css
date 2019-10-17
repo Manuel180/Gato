@@ -1,5 +1,5 @@
 .cuadrado
-{
+{   
 	width: 150px;
 	height: 150px;
 	margin-right: 20px;
@@ -7,12 +7,20 @@
 	border: solid  black 1px;
 	display: inline-block;
 	margin-top: 20px;
+	font-size: 70px;
 	cursor: pointer;
+	text-align: center;
+	font-family: helvetica;
 }
 
 .todo
 {
 	position: relative;
 	margin-top: 35px;
-	right: -400px;
+	text-align: center;
+}
+
+body
+{
+	background-color: black;
 }

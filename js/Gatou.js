@@ -1,17 +1,29 @@
-$(document).ready(function(){
+$(document).ready(function()
+{
+ var cont=0;
 
- $(".cuadrado").click(function() {
+ $(".cuadrado").click(function()
+	{
+        
+  if (cont==0) {
+  $(this).html("O");
+        cont=1;
+        }
 
-	 console.log("hola")
-	 
+else
+{
+$(this).html("X");
+ cont=0;
+}
 
-   });
- 
- 
-});
 
-         
-   		
+})
+
+ });
+
+
+
+
         
     
    		
